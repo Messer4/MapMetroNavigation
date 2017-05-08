@@ -1,0 +1,14 @@
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\bin\Debug\MetroMapNavigation.exe.config
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MetroMapNavigation.csprojResolveAssemblyReference.cache
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MainWindow.g.cs
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\App.g.cs
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MetroMapNavigation_MarkupCompile.cache
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MetroMapNavigation_MarkupCompile.lref
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\bin\Debug\MetroMapNavigation.exe
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\bin\Debug\MetroMapNavigation.pdb
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MainWindow.baml
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MetroMapNavigation.g.resources
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MetroMapNavigation.Properties.Resources.resources
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MetroMapNavigation.csproj.GenerateResource.Cache
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MetroMapNavigation.exe
+c:\users\михаил\documents\visual studio 2015\Projects\MetroMapNavigation\MetroMapNavigation\obj\Debug\MetroMapNavigation.pdb

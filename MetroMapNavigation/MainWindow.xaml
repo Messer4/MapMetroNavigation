@@ -1,0 +1,53 @@
+﻿<Window x:Class="MetroMapNavigation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MetroMapNavigation"
+       mc:Ignorable="d"
+        Title="MetroNavigation" WindowState="Maximized"  >
+    <Window.Resources>
+
+    </Window.Resources>
+    <Grid x:Name="Grid1" ShowGridLines="True" RenderTransformOrigin="0.446,0.523" >
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"></ColumnDefinition>
+            <ColumnDefinition Width="auto" ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Height="20" Margin="46,155,0,0" VerticalAlignment="Top" Width="157" SelectionChanged="ComboBox_Selected">
+        </ComboBox>
+        <ComboBox x:Name="ComboBox2" HorizontalAlignment="Left" Height="21" Margin="46,241,0,0" VerticalAlignment="Top" Width="157" SelectionChanged="ComboBox_Selected" />
+
+        <Image x:Name="ImageMap" Source="Resources/kiev-metro.png" Opacity="1"   Grid.Column="2" />
+
+        <Path x:Name="Path2" Fill="Yellow" Grid.Column="2" Stroke="Black"  >
+            <Path.Data>
+                <GeometryGroup x:Name="Group1" FillRule="EvenOdd" >
+
+                </GeometryGroup>
+            </Path.Data>
+        </Path>
+
+        <Path x:Name="Path1" Fill="Red" Grid.Column="2" Stroke="Black"  >
+            <Path.Data>
+                <PathGeometry x:Name="Group2" FillRule="Nonzero" >
+
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+
+        <Path x:Name="Path3"  Grid.Column="2" Stroke="Black" Fill="Blue" >
+
+        </Path>
+
+        <Button x:Name="EnterButton" Content="Построить" HorizontalAlignment="Left" Margin="46,302,0,0" VerticalAlignment="Top" Width="157" Height="38"   Click="EnterButton_Click" IsEnabled="False"/>
+        <Label x:Name="label" Content="Начальная Точка" HorizontalAlignment="Left" Margin="46,122,0,0" VerticalAlignment="Top" Width="157" Height="28"/>
+        <Label x:Name="label1" Content="Конечная точка" HorizontalAlignment="Left" Margin="46,196,0,0" VerticalAlignment="Top" Width="157"/>
+
+    </Grid>
+
+</Window>
